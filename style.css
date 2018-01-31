@@ -1,0 +1,52 @@
+#controls
+{   
+    text-align: center;
+}
+
+#controls button 
+{
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px;
+    margin: 25px 2px;
+    border: 0;
+    border-radius: 4px;
+    background: #8afafa;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+#controls button:hover 
+{
+    background: #8afafa;
+}
+
+#puzzle div
+{
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+#puzzle div.number
+{
+    cursor: pointer;
+    font: bold 25px/50px Arial;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    background: #8afafa;
+}
+ 
+#puzzle div.empty
+{
+    background: #9fdfdf;
+}
+
+#puzzle.animate div
+{
+	-webkit-transition: 0.15s left, 0.15s top;
+ 	transition: 0.15s left, 0.15s top;
+}
